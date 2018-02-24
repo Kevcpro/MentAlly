@@ -14,16 +14,18 @@ wss.on('connection', function connection(ws) {
 });
 
 // respond with "hello world" when a GET request is made to the homepage
+var bodyParser = require('body-parser');
+app.use(bodyParser.json()); // support json encoded bodies
+app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
 app.post('/data', function (req, res) {
 
   var name = req.body.name
 
-  if (name in users){
+  if (!(name in users)){
       user = new User(name)
+      users[name] = user
   }
-
-  users[name].addEmotions(anger, contempt, disgust, fear, happiness, neutral, sadness, surprise)
-
+  
   var anger = req.body.anger
   var contempt = req.body.contempt
   var disgust = req.body.disgust
@@ -33,15 +35,21 @@ app.post('/data', function (req, res) {
   var sadness = req.body.sadness
   var surprise = req.body.surprise
 
+  users[name].addEmotions(anger, contempt, disgust, fear, happiness, neutral, sadness, surprise)
+
+  console.log(req.body.anger)
+
   wss.clients.forEach(function each(client) {
-      if (client !== ws && client.readyState === WebSocket.OPEN) {
-        client.send(users);
+      if (client.readyState === WebSocket.OPEN) {
+        client.send(JSON.stringify(users));
       }
   });
 
   res.send('Success!')
 
 })
+
+app.listen(3000);
 
 
 class User {
@@ -52,13 +60,14 @@ class User {
 
   addEmotions(anger, contempt, disgust, fear, happiness, neutral, sadness, surprise){
 
-    emotion = new Record(anger, contempt, disgust, fear, happiness, neutral, sadness, surprise);
+    var emotion = new Record([anger, contempt, disgust, fear, happiness, neutral, sadness, surprise]);
     this.records.push(emotion);
   }
 }
 
 class Record {
   constructor(emotions) {
+
     this.anger = emotions[0]
     this.contempt = emotions[1]
     this.disgust = emotions[2]
