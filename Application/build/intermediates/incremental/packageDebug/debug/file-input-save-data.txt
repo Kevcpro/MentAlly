@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Feb 24 04:52:45 EST 2018
+#Sat Feb 24 10:50:01 EST 2018
 0.baseType=DIRECTORY
 0.base=/Users/kevincho/MentAlly/Application/build/intermediates/transforms/dexMerger/debug/0
 0.path=classes.dex
