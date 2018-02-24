@@ -9,8 +9,7 @@ wss.on('connection', function connection(ws) {
   ws.on('message', function incoming(message) {
     console.log('received: %s', message);
   });
-
-  ws.send('something');
+  ws.send(JSON.stringify(users));
 });
 
 // respond with "hello world" when a GET request is made to the homepage
@@ -25,19 +24,13 @@ app.post('/data', function (req, res) {
       user = new User(name)
       users[name] = user
   }
-  
+
   var anger = req.body.anger
-  var contempt = req.body.contempt
-  var disgust = req.body.disgust
   var fear = req.body.fear
   var happiness = req.body.happiness
-  var neutral = req.body.neutral
   var sadness = req.body.sadness
-  var surprise = req.body.surprise
 
-  users[name].addEmotions(anger, contempt, disgust, fear, happiness, neutral, sadness, surprise)
-
-  console.log(req.body.anger)
+  users[name].addEmotions(anger, fear, happiness, sadness)
 
   wss.clients.forEach(function each(client) {
       if (client.readyState === WebSocket.OPEN) {
@@ -51,30 +44,29 @@ app.post('/data', function (req, res) {
 
 app.listen(3000);
 
-
 class User {
   constructor(name) {
     this.name = name
     this.records = [];
   }
 
-  addEmotions(anger, contempt, disgust, fear, happiness, neutral, sadness, surprise){
+  addEmotions(anger, fear, happiness, sadness){
 
-    var emotion = new Record([anger, contempt, disgust, fear, happiness, neutral, sadness, surprise]);
+    var emotion = new Record([anger, fear, happiness, sadness], new Date().toLocaleString());
+    console.log(emotion);
     this.records.push(emotion);
   }
 }
 
 class Record {
-  constructor(emotions) {
+  constructor(emotions, date) {
 
     this.anger = emotions[0]
-    this.contempt = emotions[1]
-    this.disgust = emotions[2]
-    this.fear = emotions[3]
-    this.happiness = emotions[4]
-    this.neutral = emotions[5]
-    this.sadness = emotions[6]
-    this.surprise = emotions[7]
+    this.fear = emotions[1]
+    this.happiness = emotions[2]
+    this.sadness = emotions[3]
+    this.date = date
+
+
   }
 }
