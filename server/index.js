@@ -9,8 +9,10 @@ wss.on('connection', function connection(ws) {
   ws.on('message', function incoming(message) {
     console.log('received: %s', message);
   });
+  ws.on('error', () => console.log('errored'));
   ws.send(JSON.stringify(users));
 });
+
 
 // respond with "hello world" when a GET request is made to the homepage
 var bodyParser = require('body-parser');
