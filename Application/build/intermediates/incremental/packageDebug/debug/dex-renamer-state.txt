@@ -1,4 +1,4 @@
-#Sat Feb 24 10:50:00 EST 2018
+#Sat Feb 24 15:45:31 EST 2018
 base.0=/Users/kevincho/MentAlly/Application/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex
