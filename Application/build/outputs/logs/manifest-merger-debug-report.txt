@@ -1,115 +1,115 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/kevincho/MentAlly/Application/src/main/AndroidManifest.xml:17:1-44:12
-INJECTED from /Users/kevincho/MentAlly/Application/src/main/AndroidManifest.xml:17:1-44:12
-INJECTED from /Users/kevincho/MentAlly/Application/src/main/AndroidManifest.xml:17:1-44:12
-MERGED from [com.android.support:support-v13:27.0.2] /Users/kevincho/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/493894737b8a051cedfe782440eb78fe/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-v4:27.0.2] /Users/kevincho/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/39d9525cbd83f3f659b5ab6f8f7b122d/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:27.0.2] /Users/kevincho/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/7f97d83fc35dfb54a46b2a2f443bd3d2/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/kevincho/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/220bbc813fcc6a862d39a23fb92dfef0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:27.0.2] /Users/kevincho/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/83d5e5fbfb4b3e62d1ef0878e10978f2/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.0.2] /Users/kevincho/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/d96871d2580f5655637f3283490043eb/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.0.2] /Users/kevincho/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/0b6788c7a4b1da0ce63f37fa1809ce72/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/kevincho/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/170b5a4a510ca1a8c9fe06f38e274d6d/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.0.2] /Users/kevincho/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/bafa435bf58e77c9f86c259d4d362791/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/kevincho/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/91d29c151059854ae16f60b5b9fadeb4/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.0.2] /Users/kevincho/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/41b0866bab71eaf7bc4414fed56d1742/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/kevincho/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/a067f83a594a3813fd121828cf4950e7/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/kevincho/MentAlly/Application/src/main/AndroidManifest.xml:17:1-44:12
-INJECTED from /Users/kevincho/MentAlly/Application/src/main/AndroidManifest.xml:17:1-44:12
+ADDED from /home/jaden/mentally/Application/src/main/AndroidManifest.xml:17:1-44:12
+INJECTED from /home/jaden/mentally/Application/src/main/AndroidManifest.xml:17:1-44:12
+INJECTED from /home/jaden/mentally/Application/src/main/AndroidManifest.xml:17:1-44:12
+MERGED from [com.android.support:support-v13:27.0.2] /home/jaden/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/3029a81fa10b1018247d23445c5f620c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.0.2] /home/jaden/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/75b1501ed9a4e7da78f13d31ad81e63b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.0.2] /home/jaden/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/1d893c845bef0637eb18b965abea5cbd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/jaden/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/86b444c45f79569d04ca17ef1e0884ce/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/jaden/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/b85b97b30d6d04d57d6d4547c047f3f7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] /home/jaden/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/d6baec38333b6e71c3695be1ef182457/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/jaden/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/313b7d9a97b52ef66464f071fa88ae65/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/jaden/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/4b09df14669daf932c7d9889779854a4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/jaden/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/dfeac6f74cfa8d2eac8a1edb8e322c41/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/jaden/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/b0f5f8a5ff9c9c6cfc53b290d82c985e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] /home/jaden/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/c06739f5e11a2439e9ea0c6e9ba36d57/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/jaden/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/c04915ea9b566e7bd8d8d6f77dd83148/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/jaden/mentally/Application/src/main/AndroidManifest.xml:17:1-44:12
+INJECTED from /home/jaden/mentally/Application/src/main/AndroidManifest.xml:17:1-44:12
 	package
-		ADDED from /Users/kevincho/MentAlly/Application/src/main/AndroidManifest.xml:18:5-47
+		ADDED from /home/jaden/mentally/Application/src/main/AndroidManifest.xml:18:5-47
 	android:versionName
-		ADDED from /Users/kevincho/MentAlly/Application/src/main/AndroidManifest.xml:20:5-30
-		INJECTED from /Users/kevincho/MentAlly/Application/src/main/AndroidManifest.xml
-		INJECTED from /Users/kevincho/MentAlly/Application/src/main/AndroidManifest.xml
+		ADDED from /home/jaden/mentally/Application/src/main/AndroidManifest.xml:20:5-30
+		INJECTED from /home/jaden/mentally/Application/src/main/AndroidManifest.xml
+		INJECTED from /home/jaden/mentally/Application/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/kevincho/MentAlly/Application/src/main/AndroidManifest.xml:17:11-69
+		ADDED from /home/jaden/mentally/Application/src/main/AndroidManifest.xml:17:11-69
 	android:versionCode
-		ADDED from /Users/kevincho/MentAlly/Application/src/main/AndroidManifest.xml:19:5-28
-		INJECTED from /Users/kevincho/MentAlly/Application/src/main/AndroidManifest.xml
-		INJECTED from /Users/kevincho/MentAlly/Application/src/main/AndroidManifest.xml
+		ADDED from /home/jaden/mentally/Application/src/main/AndroidManifest.xml:19:5-28
+		INJECTED from /home/jaden/mentally/Application/src/main/AndroidManifest.xml
+		INJECTED from /home/jaden/mentally/Application/src/main/AndroidManifest.xml
 uses-permission#android.hardware.camera.front
-ADDED from /Users/kevincho/MentAlly/Application/src/main/AndroidManifest.xml:23:5-68
+ADDED from /home/jaden/mentally/Application/src/main/AndroidManifest.xml:23:5-68
 	android:name
-		ADDED from /Users/kevincho/MentAlly/Application/src/main/AndroidManifest.xml:23:22-66
+		ADDED from /home/jaden/mentally/Application/src/main/AndroidManifest.xml:23:22-66
 uses-permission#android.permission.CAMERA
-ADDED from /Users/kevincho/MentAlly/Application/src/main/AndroidManifest.xml:24:5-64
+ADDED from /home/jaden/mentally/Application/src/main/AndroidManifest.xml:24:5-64
 	android:name
-		ADDED from /Users/kevincho/MentAlly/Application/src/main/AndroidManifest.xml:24:22-62
+		ADDED from /home/jaden/mentally/Application/src/main/AndroidManifest.xml:24:22-62
 uses-permission#android.permission.microphone
-ADDED from /Users/kevincho/MentAlly/Application/src/main/AndroidManifest.xml:25:5-68
+ADDED from /home/jaden/mentally/Application/src/main/AndroidManifest.xml:25:5-68
 	android:name
-		ADDED from /Users/kevincho/MentAlly/Application/src/main/AndroidManifest.xml:25:22-66
+		ADDED from /home/jaden/mentally/Application/src/main/AndroidManifest.xml:25:22-66
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from /Users/kevincho/MentAlly/Application/src/main/AndroidManifest.xml:26:5-70
+ADDED from /home/jaden/mentally/Application/src/main/AndroidManifest.xml:26:5-70
 	android:name
-		ADDED from /Users/kevincho/MentAlly/Application/src/main/AndroidManifest.xml:26:22-68
+		ADDED from /home/jaden/mentally/Application/src/main/AndroidManifest.xml:26:22-68
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/kevincho/MentAlly/Application/src/main/AndroidManifest.xml:27:5-80
+ADDED from /home/jaden/mentally/Application/src/main/AndroidManifest.xml:27:5-80
 	android:name
-		ADDED from /Users/kevincho/MentAlly/Application/src/main/AndroidManifest.xml:27:22-78
+		ADDED from /home/jaden/mentally/Application/src/main/AndroidManifest.xml:27:22-78
 application
-ADDED from /Users/kevincho/MentAlly/Application/src/main/AndroidManifest.xml:29:5-42:19
+ADDED from /home/jaden/mentally/Application/src/main/AndroidManifest.xml:29:5-42:19
 	android:label
-		ADDED from /Users/kevincho/MentAlly/Application/src/main/AndroidManifest.xml:30:9-41
+		ADDED from /home/jaden/mentally/Application/src/main/AndroidManifest.xml:30:9-41
 	android:icon
-		ADDED from /Users/kevincho/MentAlly/Application/src/main/AndroidManifest.xml:31:9-45
+		ADDED from /home/jaden/mentally/Application/src/main/AndroidManifest.xml:31:9-45
 	android:allowBackup
-		ADDED from /Users/kevincho/MentAlly/Application/src/main/AndroidManifest.xml:29:18-44
+		ADDED from /home/jaden/mentally/Application/src/main/AndroidManifest.xml:29:18-44
 	android:theme
-		ADDED from /Users/kevincho/MentAlly/Application/src/main/AndroidManifest.xml:32:9-45
+		ADDED from /home/jaden/mentally/Application/src/main/AndroidManifest.xml:32:9-45
 activity#com.example.android.camera2video.CameraActivity
-ADDED from /Users/kevincho/MentAlly/Application/src/main/AndroidManifest.xml:34:9-40:20
+ADDED from /home/jaden/mentally/Application/src/main/AndroidManifest.xml:34:9-40:20
 	android:label
-		ADDED from /Users/kevincho/MentAlly/Application/src/main/AndroidManifest.xml:35:19-51
+		ADDED from /home/jaden/mentally/Application/src/main/AndroidManifest.xml:35:19-51
 	android:name
-		ADDED from /Users/kevincho/MentAlly/Application/src/main/AndroidManifest.xml:34:19-49
+		ADDED from /home/jaden/mentally/Application/src/main/AndroidManifest.xml:34:19-49
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/kevincho/MentAlly/Application/src/main/AndroidManifest.xml:36:13-39:29
+ADDED from /home/jaden/mentally/Application/src/main/AndroidManifest.xml:36:13-39:29
 action#android.intent.action.MAIN
-ADDED from /Users/kevincho/MentAlly/Application/src/main/AndroidManifest.xml:37:17-69
+ADDED from /home/jaden/mentally/Application/src/main/AndroidManifest.xml:37:17-69
 	android:name
-		ADDED from /Users/kevincho/MentAlly/Application/src/main/AndroidManifest.xml:37:25-66
+		ADDED from /home/jaden/mentally/Application/src/main/AndroidManifest.xml:37:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/kevincho/MentAlly/Application/src/main/AndroidManifest.xml:38:17-77
+ADDED from /home/jaden/mentally/Application/src/main/AndroidManifest.xml:38:17-77
 	android:name
-		ADDED from /Users/kevincho/MentAlly/Application/src/main/AndroidManifest.xml:38:27-74
+		ADDED from /home/jaden/mentally/Application/src/main/AndroidManifest.xml:38:27-74
 uses-sdk
-INJECTED from /Users/kevincho/MentAlly/Application/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/kevincho/MentAlly/Application/src/main/AndroidManifest.xml
-INJECTED from /Users/kevincho/MentAlly/Application/src/main/AndroidManifest.xml
-MERGED from [com.android.support:support-v13:27.0.2] /Users/kevincho/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/493894737b8a051cedfe782440eb78fe/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v13:27.0.2] /Users/kevincho/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/493894737b8a051cedfe782440eb78fe/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.0.2] /Users/kevincho/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/39d9525cbd83f3f659b5ab6f8f7b122d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.0.2] /Users/kevincho/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/39d9525cbd83f3f659b5ab6f8f7b122d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.0.2] /Users/kevincho/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/7f97d83fc35dfb54a46b2a2f443bd3d2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.0.2] /Users/kevincho/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/7f97d83fc35dfb54a46b2a2f443bd3d2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/kevincho/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/220bbc813fcc6a862d39a23fb92dfef0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/kevincho/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/220bbc813fcc6a862d39a23fb92dfef0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.0.2] /Users/kevincho/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/83d5e5fbfb4b3e62d1ef0878e10978f2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.0.2] /Users/kevincho/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/83d5e5fbfb4b3e62d1ef0878e10978f2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.0.2] /Users/kevincho/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/d96871d2580f5655637f3283490043eb/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.0.2] /Users/kevincho/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/d96871d2580f5655637f3283490043eb/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.0.2] /Users/kevincho/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/0b6788c7a4b1da0ce63f37fa1809ce72/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.0.2] /Users/kevincho/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/0b6788c7a4b1da0ce63f37fa1809ce72/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/kevincho/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/170b5a4a510ca1a8c9fe06f38e274d6d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/kevincho/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/170b5a4a510ca1a8c9fe06f38e274d6d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.0.2] /Users/kevincho/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/bafa435bf58e77c9f86c259d4d362791/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.0.2] /Users/kevincho/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/bafa435bf58e77c9f86c259d4d362791/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/kevincho/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/91d29c151059854ae16f60b5b9fadeb4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/kevincho/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/91d29c151059854ae16f60b5b9fadeb4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.0.2] /Users/kevincho/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/41b0866bab71eaf7bc4414fed56d1742/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.0.2] /Users/kevincho/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/41b0866bab71eaf7bc4414fed56d1742/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/kevincho/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/a067f83a594a3813fd121828cf4950e7/AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/kevincho/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/a067f83a594a3813fd121828cf4950e7/AndroidManifest.xml:20:5-22:41
-INJECTED from /Users/kevincho/MentAlly/Application/src/main/AndroidManifest.xml
-INJECTED from /Users/kevincho/MentAlly/Application/src/main/AndroidManifest.xml
+INJECTED from /home/jaden/mentally/Application/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/jaden/mentally/Application/src/main/AndroidManifest.xml
+INJECTED from /home/jaden/mentally/Application/src/main/AndroidManifest.xml
+MERGED from [com.android.support:support-v13:27.0.2] /home/jaden/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/3029a81fa10b1018247d23445c5f620c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:27.0.2] /home/jaden/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/3029a81fa10b1018247d23445c5f620c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /home/jaden/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/75b1501ed9a4e7da78f13d31ad81e63b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /home/jaden/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/75b1501ed9a4e7da78f13d31ad81e63b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /home/jaden/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/1d893c845bef0637eb18b965abea5cbd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /home/jaden/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/1d893c845bef0637eb18b965abea5cbd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/jaden/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/86b444c45f79569d04ca17ef1e0884ce/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/jaden/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/86b444c45f79569d04ca17ef1e0884ce/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/jaden/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/b85b97b30d6d04d57d6d4547c047f3f7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/jaden/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/b85b97b30d6d04d57d6d4547c047f3f7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /home/jaden/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/d6baec38333b6e71c3695be1ef182457/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /home/jaden/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/d6baec38333b6e71c3695be1ef182457/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/jaden/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/313b7d9a97b52ef66464f071fa88ae65/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/jaden/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/313b7d9a97b52ef66464f071fa88ae65/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/jaden/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/4b09df14669daf932c7d9889779854a4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/jaden/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/4b09df14669daf932c7d9889779854a4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/jaden/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/dfeac6f74cfa8d2eac8a1edb8e322c41/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/jaden/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/dfeac6f74cfa8d2eac8a1edb8e322c41/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/jaden/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/b0f5f8a5ff9c9c6cfc53b290d82c985e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/jaden/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/b0f5f8a5ff9c9c6cfc53b290d82c985e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /home/jaden/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/c06739f5e11a2439e9ea0c6e9ba36d57/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /home/jaden/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/c06739f5e11a2439e9ea0c6e9ba36d57/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/jaden/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/c04915ea9b566e7bd8d8d6f77dd83148/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/jaden/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/c04915ea9b566e7bd8d8d6f77dd83148/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/jaden/mentally/Application/src/main/AndroidManifest.xml
+INJECTED from /home/jaden/mentally/Application/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/kevincho/MentAlly/Application/src/main/AndroidManifest.xml
-		ADDED from /Users/kevincho/MentAlly/Application/src/main/AndroidManifest.xml
-		INJECTED from /Users/kevincho/MentAlly/Application/src/main/AndroidManifest.xml
+		INJECTED from /home/jaden/mentally/Application/src/main/AndroidManifest.xml
+		ADDED from /home/jaden/mentally/Application/src/main/AndroidManifest.xml
+		INJECTED from /home/jaden/mentally/Application/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/kevincho/MentAlly/Application/src/main/AndroidManifest.xml
-		ADDED from /Users/kevincho/MentAlly/Application/src/main/AndroidManifest.xml
-		INJECTED from /Users/kevincho/MentAlly/Application/src/main/AndroidManifest.xml
+		INJECTED from /home/jaden/mentally/Application/src/main/AndroidManifest.xml
+		ADDED from /home/jaden/mentally/Application/src/main/AndroidManifest.xml
+		INJECTED from /home/jaden/mentally/Application/src/main/AndroidManifest.xml

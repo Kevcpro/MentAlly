@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/kevincho/MentAlly/Application/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-port/values-port.xml",
+            "outputFile": "/home/jaden/mentally/Application/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "/Users/kevincho/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/220bbc813fcc6a862d39a23fb92dfef0/res/values-port/values-port.xml",
+                    "source": "/home/jaden/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/86b444c45f79569d04ca17ef1e0884ce/res/values-port/values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

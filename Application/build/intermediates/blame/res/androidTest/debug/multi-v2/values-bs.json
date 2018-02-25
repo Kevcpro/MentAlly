@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/kevincho/MentAlly/Application/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-bs/values-bs.xml",
+            "outputFile": "/home/jaden/mentally/Application/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-bs/values-bs.xml",
             "map": [
                 {
-                    "source": "/Users/kevincho/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/220bbc813fcc6a862d39a23fb92dfef0/res/values-bs/values-bs.xml",
+                    "source": "/home/jaden/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/86b444c45f79569d04ca17ef1e0884ce/res/values-bs/values-bs.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/kevincho/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/41b0866bab71eaf7bc4414fed56d1742/res/values-bs/values-bs.xml",
+                    "source": "/home/jaden/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/c06739f5e11a2439e9ea0c6e9ba36d57/res/values-bs/values-bs.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
