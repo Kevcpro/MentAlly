@@ -12,9 +12,18 @@ wss.on('connection', function connection(ws) {
     console.log('received: %s', message);
   });
   ws.on('error', () => console.log('errored'));
+  ws.on('makereq', (req) => {
+    if (req.path == "data") {
+      ws.send(dataReq(req))
+    }
+
+  })
   ws.send(JSON.stringify(users));
 });
 
+function dataReq(req) {
+
+}
 
 // respond with "hello world" when a GET request is made to the homepage
 var bodyParser = require('body-parser');
