@@ -3,6 +3,8 @@ var express = require('express')
 var app = express()
 const wss = new WebSocket.Server({ port: 8080 });
 var users = {}
+var path = require('path');
+
 
 wss.on('connection', function connection(ws) {
 
@@ -18,6 +20,8 @@ wss.on('connection', function connection(ws) {
 var bodyParser = require('body-parser');
 app.use(bodyParser.json()); // support json encoded bodies
 app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
+
+
 app.post('/data', function (req, res) {
 
   var name = req.body.name
@@ -42,7 +46,11 @@ app.post('/data', function (req, res) {
 
   res.send('Success!')
 
-})
+});
+
+app.get('/', function(req, res) {
+    res.sendFile(path.join(__dirname + '/index.html'));
+});
 
 app.listen(3000);
 

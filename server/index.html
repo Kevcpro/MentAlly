@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<body>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script>
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+
+const ws = new WebSocket('ws://mentally.tech:8080/ws');
+
+ws.onmessage = function (event) {
+  data = JSON.parse(event.data);
+  google.charts.setOnLoadCallback(drawChart);
+}
+
+function drawChart(){
+  for (name in data){
+
+    records = data[name]["records"]
+    arr = [['Time', 'Anger', 'Fear', 'Happiness', 'Sadness']];
+
+    for (record in records){
+      anger = data[name]["records"][record]["anger"]
+      fear = data[name]["records"][record]["fear"]
+      happiness = data[name]["records"][record]["happiness"]
+      sadness = data[name]["records"][record]["sadness"]
+      datetime = data[name]["records"][record]["date"]
+      arr.push([datetime, parseInt(anger), parseInt(fear), parseInt(happiness), parseInt(sadness)])
+    }
+
+    console.log(arr);
+    var datas = google.visualization.arrayToDataTable(arr);
+
+        var options = {
+          title: name,
+          curveType: 'function',
+          legend: { position: 'bottom' }
+        };
+
+        console.log(name);
+        if($("#" + name).length == 0) {
+          //it doesn't exist
+          d = document.createElement('div');
+          d.id = name;
+          $('body').append(d);
+        }
+        var chart = new google.visualization.LineChart(document.getElementById(name));
+
+        chart.draw(datas, options);
+
+
+  }
+}
+
+</script>
+
+</body>
