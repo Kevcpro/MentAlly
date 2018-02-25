@@ -2,164 +2,59 @@
 <meta charset="utf-8">
 
 <body>
-<style>
-html,
-body {
-   margin:0;
-   padding:0;
-   height:100%;
-}
-#container {
-   min-height:100%;
-   position:relative;
-}
-#header {
-   background:#ff0;
-   padding:10px;
-}
-#body {
-   padding:10px;
-   padding-bottom:60px;   /* Height of the footer */
-}
-#footer {
-   position:absolute;
-   bottom:0;
-   width:100%;
-   height:60px;   /* Height of the footer */
-   background:#6cf;
-}
-</style>
 
 <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 <script>
-var count = 0;
-const ws = new WebSocket('ws://127.0.0.1:8080');
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
 
+const ws = new WebSocket('ws://127.0.0.1:8080');
 
 ws.onmessage = function (event) {
   data = JSON.parse(event.data);
-  $('.canvas').removeClass('canvas');
-  draw(data);
-
-
+  google.charts.setOnLoadCallback(drawChart);
 }
 
-function draw(data){
-
-
+function drawChart(){
   for (name in data){
 
     records = data[name]["records"]
-    anger_values = [];
-    fear_values = [];
-    happiness_values = [];
-    sadness_values = [];
-    datetime_values = [];
+    arr = [['Time', 'Anger', 'Fear', 'Happiness', 'Sadness']];
 
     for (record in records){
       anger = data[name]["records"][record]["anger"]
-      anger_values.push(anger);
       fear = data[name]["records"][record]["fear"]
-      fear_values.push(fear);
       happiness = data[name]["records"][record]["happiness"]
-      happiness_values.push(happiness);
       sadness = data[name]["records"][record]["sadness"]
-      sadness_values.push(sadness);
       datetime = data[name]["records"][record]["date"]
-      console.log(datetime);
-      datetime_values.push(datetime_values);
+      arr.push([datetime, parseInt(anger), parseInt(fear), parseInt(happiness), parseInt(sadness)])
     }
 
-    var canv = document.createElement('canvas');
-    canv.id = name + 'anger'
-    document.body.appendChild(canv); // adds the canvas to the body element
+    console.log(arr);
+    var datas = google.visualization.arrayToDataTable(arr);
 
-    var canvas = document.getElementById(name + 'anger');
-    var ctx = document.getElementById(name + 'anger').getContext('2d');
+        var options = {
+          title: name,
+          curveType: 'function',
+          legend: { position: 'bottom' }
+        };
 
-    var angerChart = new Chart(ctx, {
-      type: 'line',
-      data: {
-          labels: datetime_values,
-          datasets: [{
-              label: "Anger",
-              backgroundColor: 'rgb(255, 99, 132)',
-              borderColor: 'rgb(255, 99, 132)',
-              data: anger_values,
-          }]
-      },
+        console.log(name);
+        if($("#" + name).length == 0) {
+          //it doesn't exist
+          d = document.createElement('div');
+          d.id = name;
+          $('body').append(d);
+        }
+        var chart = new google.visualization.LineChart(document.getElementById(name));
 
-        options: {}
-      });
+        chart.draw(datas, options);
 
-      var canv = document.createElement('canvas');
-      canv.id = name + 'fear'
-      document.body.appendChild(canv); // adds the canvas to the body element
-
-      var canvas = document.getElementById(name + 'fear');
-      var ctx = document.getElementById(name + 'fear').getContext('2d');
-    var fearChart = new Chart(ctx, {
-      type: 'line',
-      data: {
-          labels: datetime_values,
-          datasets: [{
-              label: "Fear",
-              backgroundColor: 'rgb(255, 99, 132)',
-              borderColor: 'rgb(255, 99, 132)',
-              data: fear_values,
-          }]
-      },
-
-        options: {}
-      });
-
-      var canv = document.createElement('canvas');
-      canv.id = name + 'happiness'
-      document.body.appendChild(canv); // adds the canvas to the body element
-
-      var canvas = document.getElementById(name + 'happiness');
-      var ctx = document.getElementById(name + 'happiness').getContext('2d');
-    var happinessChart = new Chart(ctx, {
-      type: 'line',
-      data: {
-          labels: datetime_values,
-          datasets: [{
-              label: "Happiness",
-              backgroundColor: 'rgb(255, 99, 132)',
-              borderColor: 'rgb(255, 99, 132)',
-              data: happiness_values,
-          }]
-      },
-
-        options: {}
-      });
-
-      var canv = document.createElement('canvas');
-      canv.id = name + 'sadness'
-      document.body.appendChild(canv); // adds the canvas to the body element
-
-      var canvas = document.getElementById(name + 'sadness');
-      var ctx = document.getElementById(name + 'sadness').getContext('2d');
-    var sadnessChart = new Chart(ctx, {
-      type: 'line',
-      data: {
-          labels: datetime_values,
-          datasets: [{
-              label: "Sadness",
-              backgroundColor: 'rgb(255, 200, 200)',
-              borderColor: 'rgb(255, 99, 132)',
-              data: sadness_values,
-          }]
-      },
-
-        options: {}
-      });
 
   }
 }
 
-
-
 </script>
+
 </body>
